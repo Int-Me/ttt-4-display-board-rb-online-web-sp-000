@@ -6,6 +6,8 @@ def display_board(board)
   secondline = " " + board[3] + " | " + board[4] + " | " + board[5] + " "
   thirdline = " " + board[6] + " | " + board[7] + " | " + board[8] + " "
   puts firstline
+  puts "-----------"
   puts secondline
+  puts "-----------"
   puts thirdline
 end
